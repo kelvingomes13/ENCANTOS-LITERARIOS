@@ -1,0 +1,58 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --pink-light: #C59DD2;
+  --pink-base: #9547A5;
+  --pink-dark: #7D298A;
+  --pink-low:#3F0F41;
+
+  --blue-light: #73B6D2;
+  --blue-base: #358BB9;
+  --blue-mid: #2374A4; 
+  --blue-dark: #144A72;
+  --blue-low: #08233C;
+
+  /* Background Colors */
+  --shape-stroke: #002347;
+  --shape-hover: #001933;
+  --shape-base: #000F1F;
+  --shape-background: #00050A;
+
+
+/* Text Colors */
+  --color-text-title: #F8FBFB;
+  --color-text-body: #E2E7E9;
+  --color-text-label: #BAC6C9;
+
+
+  /* Font Families */
+  --ff-base: 'Raleway', sans-serif;
+
+  /* titles */
+  --title-lg: 700 3rem/1.5 var(--ff-base);
+  --title-md: 700 2rem/1.5 var(--ff-base);
+  --title-sm: 700 1.5rem/1.5 var(--ff-base);
+  --title-xs: 700 1rem/1.5 var(--ff-base);
+
+  /* subtitles */
+  --tx-lg: 500 2rem/200% var(--ff-base);
+  --tx-md: 500 1.5rem/140% var(--ff-base);
+  --tx-sm: 500 0.875rem/140% var(--ff-base);
+  --tx-xs: 500 0.75rem/140% var(--ff-base);
+
+  --button: 500 0.875rem/100% var(--ff-base);
+  --ff-link: 400 0.875rem/100% var(--ff-base);
+  
+
+}
+
+body {
+  background-color: var(--shape-background);
+  font-family: var(--ff-base);
+  color: var(--color-text-body);
+}
