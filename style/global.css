@@ -47,6 +47,9 @@
 
   --button: 500 0.875rem/100% var(--ff-base);
   --ff-link: 400 0.875rem/100% var(--ff-base);
+
+  --py-base:3.5rem;
+  --px-lg: 5rem;
   
 
 }
@@ -55,4 +58,9 @@ body {
   background-color: var(--shape-background);
   font-family: var(--ff-base);
   color: var(--color-text-body);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }

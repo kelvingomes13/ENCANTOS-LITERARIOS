@@ -1,0 +1,36 @@
+.flex{
+  display: flex;
+  gap: 1rem;
+}
+.container {
+  --max-width: 1600px;
+  width: min(var(--max-width), 100% - var(--px-lg) * 2);
+  margin-inline: auto;
+}
+.items-center {
+  align-items: center;
+}
+.gap-1 {
+  gap: 1rem;
+}
+
+.py-base {
+  padding-block: var(--py-base);
+}
+
+.px-lg{
+  padding-inline: var(--px-lg);
+}
+
+/* @media (width >= 80em) {
+  .container {
+    --max-width:80rem;
+  }
+   .desktop-only{
+    display: initial;
+  }
+  .even-columns {
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+  }
+} */
